@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+header {
+    text-align: center;
+    padding: 2em;
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+header a {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.3em 1em;
+    color: #f7f7f7;
+    background-color: #555;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+header a:hover {
+    background-color: #777;
+}
+
+#about, #projects {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+}
+
+#about h2, #projects h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #333;
+}
+
+#about p {
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.project {
+    background-color: #fff;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+}
+
+.project p {
+    margin-bottom: 0.5em;
+}
+
+.project a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+    color: #666;
+    background-color: #333;
+    color: #fff;
+}
